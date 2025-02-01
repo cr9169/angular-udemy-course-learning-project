@@ -1,6 +1,11 @@
+img {
+  width: 10rem;
+  aspect-ratio: 1;
+}
+
 input.demo {
   height: 1rem;
-  width: 5rem;
+  width: 10rem;
   border: 0.05rem solid black;
   border-radius: 1rem;
   padding: 0.5rem;

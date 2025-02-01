@@ -1,9 +1,16 @@
 <main class="main">
   <div>
     <div>
+      <img src="favicon.ico" alt="" (click)="onLogoClick()" />
       <h1>Hello, {{ title }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
     </div>
-    <input type="text" class="demo" />
+    <input
+      type="text"
+      class="demo"
+      (keyup)="onKeyUp(titleInput.value)"
+      [value]="title"
+      #titleInput
+    />
   </div>
 </main>
